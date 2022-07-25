@@ -1,0 +1,32 @@
+.loader {
+    width: 315px;
+    height: 110px;
+    background-image: url("../images/loader.svg");
+    animation: 1.5s steps(4) infinite animLoader;
+    position: absolute;
+    top: 50%;
+    overflow: hidden
+}
+
+@keyframes animLoader {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: -1260px
+    }
+}
+
+.background-loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999
+}

@@ -1,0 +1,35 @@
+﻿.best-plan__text_1:before, .best-plan__text_2:before, .best-plan__text_3:before {
+    position: absolute;
+    background: #8a97ff;
+    color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    left: 0
+}
+
+.best-plan__text {
+    position: relative
+}
+
+.best-plan__text-padding {
+    padding-left: 50px
+}
+
+.best-plan__text_1:before {
+    content: '1'
+}
+
+.best-plan__text_2:before {
+    content: '2'
+}
+
+.best-plan__text_3:before {
+    content: '3'
+}
