@@ -1,7 +1,7 @@
 .loader {
     width: 315px;
     height: 110px;
-    background-image: url("https://planes.ikeargentina.com.ar/webperformance/images/loader.svg");
+    background-image: url("https://planes.ikeargentina.com.ar/mascotas/images/loader.svg");
     animation: 1.5s steps(4) infinite animLoader;
     position: absolute;
     top: 50%;
